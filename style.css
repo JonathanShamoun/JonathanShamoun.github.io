@@ -255,6 +255,31 @@ footer a:hover {
   background: #009e42;
 }
 
+/* About page list & layout fix */
+body.about-page main {
+  text-align: left !important;
+  padding: 40px 20px !important;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Restore normal bullets ONLY on About page */
+body.about-page main ul {
+  list-style-type: disc !important;
+  padding-left: 40px !important;
+  margin: 20px 0 !important;
+}
+
+body.about-page main li {
+  display: list-item !important;
+  margin: 8px 0 !important;
+}
+
+/* Fix spacing under header/nav ONLY on About page */
+body.about-page header,
+body.about-page nav {
+  margin-bottom: 10px !important;
+}
 
 
 
