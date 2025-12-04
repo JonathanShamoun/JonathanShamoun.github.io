@@ -13,30 +13,28 @@
 
 <body>
 
-  <h1 style="text-align:center; margin-top:20px;">Contact Us</h1>
-
   <form class="recipe-form" action="#">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
+  <h2>Submit a Recipe</h2>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
+  <label for="name">Your Name:</label>
+  <input type="text" id="name" name="name" required>
 
-    <label for="category">Recipe Category:</label>
-    <select id="category" name="category" required>
-    <option value="">-- Select a Category --</option>
+  <label for="category">Recipe Category:</label>
+  <select id="category" name="category" required>
+    <option value="">Select One</option>
     <option value="protein">Protein Meals</option>
     <option value="preworkout">Pre-Workout Meals</option>
     <option value="comfort">Comfort Foods</option>
-    </select>
+  </select>
 
-    <label for="recipe">Recipe Description / Ingredients:</label>
-    <textarea id="recipe" name="recipe" rows="5" required></textarea>
+  <label for="description">Recipe Description / Ingredients:</label>
+  <textarea id="description" name="description" rows="5" required></textarea>
 
-    <label for="image">Upload Image (Optional):</label>
-    <input type="file" id="image" name="image" accept="image/*">
+  <label for="upload">Upload Image (optional):</label>
+  <input type="file" id="upload" name="upload">
 
-    <button type="submit">Submit</button>
+  <button type="submit">Submit Recipe</button>
+</form>
   </form>
 
 </body>
