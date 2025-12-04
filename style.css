@@ -281,6 +281,11 @@ body.about-page nav {
   margin-bottom: 10px !important;
 }
 
+body.about-page header h1 {
+    margin-bottom: 0 !important;
+}
+
+
 
 
 
