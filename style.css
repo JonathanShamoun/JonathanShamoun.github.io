@@ -255,6 +255,39 @@ footer a:hover {
   background: #009e42;
 }
 
+/* --- ABOUT PAGE FIXES --- */
+
+/* Proper readable layout */
+.about-container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: left;
+    line-height: 1.7;
+}
+
+/* Prevent nav <ul> styles from ruining content lists */
+.about-container ul,
+.about-container li {
+    text-align: left !important;
+}
+
+/* Fix image size and centering */
+.about-container .food-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    display: block;
+    margin: 25px auto;
+}
+
+/* Improve title spacing */
+.about-container h2,
+.about-container h3 {
+    text-align: left;
+    margin-top: 25px;
+}
+
 
 
 
