@@ -288,6 +288,18 @@ footer a:hover {
     margin-top: 25px;
 }
 
+.about-container {
+    margin-top: 10px !important;
+}
+
+body.about-page header h1 {
+    margin-bottom: 5px !important;
+}
+
+body.about-page nav {
+    margin-top: 0 !important;
+    padding-top: 5px !important;
+}
 
 
 
