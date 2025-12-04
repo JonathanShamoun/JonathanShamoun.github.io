@@ -146,11 +146,12 @@ footer a:hover {
 }
 
 .food-image {
-    width: 90%;
-    max-width: 500px;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;   /* crops nicely instead of stretching */
     border-radius: 12px;
-    margin: 20px auto;
     display: block;
+    margin: 20px auto;
 }
 
 .contact-form {
@@ -253,6 +254,7 @@ footer a:hover {
 .recipe-form button:hover {
   background: #009e42;
 }
+
 
 
 
