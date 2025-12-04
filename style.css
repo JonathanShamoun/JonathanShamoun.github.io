@@ -257,48 +257,63 @@ footer a:hover {
 
 /* --- ABOUT PAGE FIXES --- */
 
-/* Proper readable layout */
-.about-container {
-    max-width: 900px;
-    margin: 40px auto;
-    padding: 20px;
-    text-align: left;
-    line-height: 1.7;
+/* Make sure <body class="about-page"> is set in about.html */
+body.about-page {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
-/* Prevent nav <ul> styles from ruining content lists */
-.about-container ul,
-.about-container li {
-    text-align: left !important;
+/* HEADER: remove huge spacing from global styles */
+body.about-page header {
+  margin: 0 !important;
+  padding: 6px 0 4px 0 !important; /* small breathing room */
 }
 
-/* Fix image size and centering */
-.about-container .food-image {
-    width: 100%;
-    max-width: 500px;
-    border-radius: 12px;
-    display: block;
-    margin: 25px auto;
-}
-
-/* Improve title spacing */
-.about-container h2,
-.about-container h3 {
-    text-align: left;
-    margin-top: 25px;
-}
-
-.about-container {
-    margin-top: 10px !important;
-}
-
+/* Title inside header */
 body.about-page header h1 {
-    margin-bottom: 5px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.1;
+  font-size: 28px;
 }
 
+/* NAV: force nav to sit right under header */
 body.about-page nav {
-    margin-top: 0 !important;
-    padding-top: 5px !important;
+  margin: 0 !important;
+  padding: 4px 0 8px 0 !important;
+}
+
+/* Nav list layout */
+body.about-page nav ul {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex;
+  gap: 18px;
+  list-style: none;
+  align-items: center;
+}
+
+/* Nav links */
+body.about-page nav ul li {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+body.about-page nav ul li a {
+  display: inline-block;
+  padding: 4px 6px;
+  line-height: 1;
+}
+
+/* Content spacing */
+body.about-page main,
+body.about-page .about-container {
+  margin-top: 8px !important;
+  padding-top: 0 !important;
+}
+
+/* Section headings */
+body.about-page .about-container h2 {
+  margin-top: 6px !important;
 }
 
 
