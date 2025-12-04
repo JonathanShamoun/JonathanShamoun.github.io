@@ -278,12 +278,9 @@ body.about-page main li {
 /* Fix spacing under header/nav ONLY on About page */
 body.about-page header,
 body.about-page nav {
-  margin-bottom: 10px !important;
+  margin-bottom: 0px !important;
 }
 
-body.about-page header h1 {
-    margin-bottom: 0 !important;
-}
 
 
 
