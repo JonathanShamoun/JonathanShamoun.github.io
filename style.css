@@ -142,4 +142,13 @@ footer a:hover {
   --primary: #00c753;
   --secondary: #ff6e42;
   --accent: #ffd54d;
+
+}
+
+.food-image {
+    width: 90%;
+    max-width: 500px;
+    border-radius: 12px;
+    margin: 20px auto;
+    display: block;
 }
