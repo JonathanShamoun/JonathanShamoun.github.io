@@ -241,7 +241,7 @@ footer a:hover {
 .recipe-form button {
   width: 100%;
   padding: 12px;
-  background: #ff7b00;
+  background: #00c753;
   color: white;
   border: none;
   border-radius: 6px;
@@ -253,5 +253,6 @@ footer a:hover {
 .recipe-form button:hover {
   background: #e56f00;
 }
+
 
 
